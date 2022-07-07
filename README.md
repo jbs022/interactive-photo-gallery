@@ -1,5 +1,5 @@
 # interactive-photo-gallery
- Treehouse Techdegree Project 5 - Interactive Photo Gallery
+ Interactive Photo Gallery - Techdegree Project 5
 
  This project was tested on the following internet browsers to make sure all features worked properly:
  
