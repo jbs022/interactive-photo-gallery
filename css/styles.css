@@ -1,0 +1,54 @@
+/* ============================================= */
+/* Sub-Folder Imports */
+/* ============================================= */
+/* ============================================= */
+/* Utilities Imports */
+/* ============================================= */
+/* ============================================= */
+/*              Variables                        */
+/* ============================================= */
+/* ============================================= */
+/* Utilities Imports */
+/* ============================================= */
+/* ============================================= */
+/*              Layout                           */
+/* ============================================= */
+/* line 6, ../Web Design Techdegree/interactive-photo-gallery/scss/components/_layout.scss */
+.gallery {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 25px;
+  justify-content: center;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 5, ../Web Design Techdegree/interactive-photo-gallery/scss/components/_forms.scss */
+nav {
+  max-width: 1000px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 14, ../Web Design Techdegree/interactive-photo-gallery/scss/components/_forms.scss */
+input {
+  width: 75%;
+  padding: 1.5em 1em;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+@media (min-width: 576px) {
+  /* line 22, ../Web Design Techdegree/interactive-photo-gallery/scss/components/_forms.scss */
+  input {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

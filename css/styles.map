@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/utilities/_index.scss",
+		"../scss/utilities/_variables.scss",
+		"../scss/components/_index.scss",
+		"../scss/components/_layout.scss",
+		"../scss/components/_forms.scss"
+	],
+	"sourcesContent": [
+		"\r\n/* ============================================= */\r\n/* Sub-Folder Imports */\r\n/* ============================================= */\r\n\r\n@import 'utilities/index';\r\n@import 'components/index';",
+		"\r\n/* ============================================= */\r\n/* Utilities Imports */\r\n/* ============================================= */\r\n\r\n@import 'variables';",
+		"/* ============================================= */\r\n/*              Variables                        */\r\n/* ============================================= */\r\n\r\n// Colors\r\n$transparent-grey: rgba(0, 0, 0, .15);",
+		"\r\n/* ============================================= */\r\n/* Utilities Imports */\r\n/* ============================================= */\r\n\r\n@import 'layout';\r\n@import 'forms';",
+		"/* ============================================= */\r\n/*              Layout                           */\r\n/* ============================================= */\r\n\r\n// Gallery Grid\r\n.gallery {\r\n\twidth: 100%;\r\n\tmax-width: 1024px;\r\n\tmargin: 0 auto;\r\n\t\r\n\tdisplay: grid;\r\n\tgrid-template-columns: repeat(auto-fill, 200px);\r\n\tgap: 25px;\r\n\tjustify-content: center;\r\n}",
+		"/* ============================================= */\r\n/*              Forms                            */\r\n/* ============================================= */\r\n\r\nnav {\r\n\tmax-width: 1000px;\r\n\tmargin: 2em auto;\r\n\t\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n}\r\n\r\ninput {\r\n\twidth: 75%;\r\n\tpadding: 1.5em 1em;\r\n\tborder: 2px solid $transparent-grey;\r\n\tborder-radius: 4px;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n\tinput {\r\n\t\twidth: 50%;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "AACA,mDAAmD;AACnD,wBAAwB;AACxB,mDAAmD;ACFnD,mDAAmD;AACnD,uBAAuB;AACvB,mDAAmD;ACHnD,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;ACDnD,mDAAmD;AACnD,uBAAuB;AACvB,mDAAmD;ACHnD,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;;AAGnD,AAAA,QAAQ,CAAC;EACR,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EAEd,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,wBAAwB;EAC/C,GAAG,EAAE,IAAI;EACT,eAAe,EAAE,MAAM;CACvB;;ACdD,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;;AAEnD,AAAA,GAAG,CAAC;EACH,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,QAAQ;EAEhB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACnB;;;AAED,AAAA,KAAK,CAAC;EACL,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,GAAG,CAAC,KAAK,CHXC,mBAAkB;EGYpC,aAAa,EAAE,GAAG;CAClB;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;;EACvB,AAAA,KAAK,CAAC;IACL,KAAK,EAAE,GAAG;GACV"
+}

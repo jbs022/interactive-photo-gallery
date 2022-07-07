@@ -1,0 +1,25 @@
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+
+nav {
+	max-width: 1000px;
+	margin: 2em auto;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	width: 75%;
+	padding: 1.5em 1em;
+	border: 2px solid $transparent-grey;
+	border-radius: 4px;
+}
+
+@media (min-width: 576px) {
+	input {
+		width: 50%;
+	}
+}
